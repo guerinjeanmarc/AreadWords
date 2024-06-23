@@ -1,0 +1,45 @@
+{
+    "words": [
+      {
+        "id": "01",
+        "french": "Etoile",
+        "english": "Star",
+        "image": "assets/game_images/01-etoile.png"
+      },
+      {
+        "id": "02",
+        "french": "Train",
+        "english": "Train",
+        "image": "assets/game_images/02-train.png"
+      },
+      {
+        "id": "03",
+        "french": "Fleur",
+        "english": "Flower",
+        "image": "assets/game_images/03-fleur.png"
+      },
+      {
+        "id": "04",
+        "french": "Pomme",
+        "english": "Apple",
+        "image": "assets/game_images/04-pomme.png"
+      },
+      {
+        "id": "05",
+        "french": "Lit",
+        "english": "Bed",
+        "image": "assets/game_images/05-lit.png"
+      },
+      {
+        "id": "06",
+        "french": "Livre",
+        "english": "Book",
+        "image": "assets/game_images/06-livre.png"
+      }
+    ],
+    "rewardImages": [
+      "assets/reward_images/chase_badge_patpatrouile_sq.png",
+      "assets/reward_images/everest_badge_patpatrouile_sq.png",
+      "assets/reward_images/marcus_badge_patpatrouile_sq.png"
+    ]
+  }

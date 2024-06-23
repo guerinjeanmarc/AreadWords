@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    transition: background-color 0.3s ease;
+}
+
+#game-container {
+    display: flex;
+    gap: 20px;
+    max-width: 1200px;
+    width: 100%;
+}
+
+#reward-column, #game-column, #memory-column {
+    flex: 1;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#image-container {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    position: relative;
+    overflow: hidden;
+}
+
+#game-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    filter: grayscale(100%);
+    transition: filter 0.5s ease;
+}
+
+#cover-grid {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.cover-square {
+    background-color: #333;
+    transition: opacity 0.3s ease;
+}
+
+#word-to-guess {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+#options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button {
+    font-size: 24px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#restart-button {
+    margin-top: 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#memory-column h3 {
+    margin-top: 0;
+}
+
+#learned-items {
+    font-size: 18px;
+}
+
+#options {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+  
+#options button {
+    background: none;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+}
+  
+#options button:hover {
+    border-color: #999;
+}
+  
+#options button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+  
+#options img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
