@@ -4,42 +4,270 @@
         "id": "01",
         "french": "Etoile",
         "english": "Star",
-        "image": "assets/game_images/01-etoile.png"
+        "image": "assets/game_images/01-etoile.png",
+        "difficulty":"2"
       },
       {
         "id": "02",
         "french": "Train",
         "english": "Train",
-        "image": "assets/game_images/02-train.png"
+        "image": "assets/game_images/02-train.png",
+        "difficulty": "2"
       },
       {
         "id": "03",
         "french": "Fleur",
         "english": "Flower",
-        "image": "assets/game_images/03-fleur.png"
+        "image": "assets/game_images/03-fleur.png",
+        "difficulty": "2"
       },
       {
         "id": "04",
         "french": "Pomme",
         "english": "Apple",
-        "image": "assets/game_images/04-pomme.png"
+        "image": "assets/game_images/04-pomme.png",
+        "difficulty": "1"
       },
       {
         "id": "05",
         "french": "Lit",
         "english": "Bed",
-        "image": "assets/game_images/05-lit.png"
+        "image": "assets/game_images/05-lit.png",
+        "difficulty": "1"
       },
       {
         "id": "06",
         "french": "Livre",
         "english": "Book",
-        "image": "assets/game_images/06-livre.png"
+        "image": "assets/game_images/06-livre.png",
+        "difficulty": "2"
+      },
+      {
+        "id": "07",
+        "french": "Gateau",
+        "english": "Cake",
+        "image": "assets/game_images/07-gateau.png",
+        "difficulty": "2"
+      },
+      {
+        "id": "08",
+        "french": "Bebe",
+        "english": "Baby",
+        "image": "assets/game_images/08-bebe.png",
+        "difficulty": "1"
+      },
+      {
+        "id": "09",
+        "french": "Avion",
+        "english": "Plane",
+        "image": "assets/game_images/09-avion.png",
+        "difficulty": "2"
+      },
+      {
+        "id": "10",
+        "french": "Bus",
+        "english": "Bus",
+        "image": "assets/game_images/10-bus.png",
+        "difficulty": "1"
+
+      },
+      {
+        "id": "11",
+        "french": "Pied",
+        "english": "Foot",
+        "image": "assets/game_images/11-pied.png",
+        "difficulty": "2"
+      },
+      {
+        "id": "12",
+        "french": "Poisson",
+        "english": "Fish",
+        "image": "assets/game_images/12-poisson.png",
+        "difficulty": "2"
+      },
+      {
+        "id": "13",
+        "french": "Main",
+        "english": "Hand",
+        "image": "assets/game_images/13-main.png",
+        "difficulty": "2"
+      },
+      {
+        "id": "14",
+        "french": "Oiseau",
+        "english": "Bird",
+        "image": "assets/game_images/14-oiseau.png",
+        "difficulty": "2"
+
+      },
+      {
+        "id": "15",
+        "french": "Chaussure",
+        "english": "Shoe",
+        "image": "assets/game_images/15-chaussure.png",
+        "difficulty": "2"
+      },
+      {
+        "id": "16",
+        "french": "Velo",
+        "english": "Bicyle",
+        "image": "assets/game_images/16-velo.png",
+        "difficulty": "1"
+
+      },
+      {
+        "id": "17",
+        "french": "Chat",
+        "english": "Cat",
+        "image": "assets/game_images/17-chat.png",
+        "difficulty": "1"
+      },
+      {
+        "id": "18",
+        "french": "Chien",
+        "english": "Dog",
+        "image": "assets/game_images/18-chien.png",
+        "difficulty": "2"
+      },
+      {
+        "id": "19",
+        "french": "Maison",
+        "english": "House",
+        "image": "assets/game_images/19-maison.png",
+        "difficulty": "2"
+      },
+      {
+        "id": "20",
+        "french": "Arbre",
+        "english": "Tree",
+        "image": "assets/game_images/20-arbre.png",
+        "difficulty": "2"
+      },
+      {
+        "id": "21",
+        "french": "Lune",
+        "english": "Moon",
+        "image": "assets/game_images/21-lune.png",
+        "difficulty": "1"
+      },
+      {
+        "id": "22",
+        "french": "Grenouille",
+        "english": "Frog",
+        "image": "assets/game_images/22-grenouille.png",
+        "difficulty": "2"
+
+      },
+      {
+        "id": "23",
+        "french": "Banane",
+        "english": "Banana",
+        "image": "assets/game_images/23-banane.png",
+        "difficulty": "1"
+      },
+      {
+        "id": "24",
+        "french": "Voiture",
+        "english": "Car",
+        "image": "assets/game_images/24-voiture.png",
+        "difficulty": "2"
+      },
+      {
+        "id": "25",
+        "french": "Ballon",
+        "english": "Ball",
+        "image": "assets/game_images/25-ballon.png",
+        "difficulty": "1"
+      },
+      {
+        "id": "26",
+        "french": "Chapeau",
+        "english": "Hat",
+        "image": "assets/game_images/26-chapeau.png",
+        "difficulty": "2"
+      },
+      {
+        "id": "27",
+        "french": "Table",
+        "english": "Table",
+        "image": "assets/game_images/27-table.png",
+        "difficulty": "1"
+      },
+      {
+        "id": "28",
+        "french": "Tracteur",
+        "english": "Tractor",
+        "image": "assets/game_images/28-tracteur.png",
+        "difficulty": "2"
+      },
+      {
+        "id": "29",
+        "french": "Lapin",
+        "english": "Rabbit",
+        "image": "assets/game_images/29-lapin.png",
+        "difficulty": "1"
+      },
+      {
+        "id": "30",
+        "french": "Soleil",
+        "english": "Sun",
+        "image": "assets/game_images/30-soleil.png",
+        "difficulty": "2"
+
+      },
+      {
+        "id": "31",
+        "french": "Coco",
+        "english": "Coconut",
+        "image": "assets/game_images/31-coco.png",
+        "difficulty": "1"
+      },
+      {
+        "id": "32",
+        "french": "Moto",
+        "english": "Motocyle",
+        "image": "assets/game_images/32-moto.png",
+        "difficulty": "1"
+      },
+      {
+        "id": "33",
+        "french": "Lego",
+        "english": "Lego",
+        "image": "assets/game_images/33-lego.png",
+        "difficulty": "1"
+      },
+      {
+        "id": "34",
+        "french": "Bulle",
+        "english": "Bubble",
+        "image": "assets/game_images/34-bulle.png",
+        "difficulty": "1"
+      },
+      {
+        "id": "35",
+        "french": "Tomate",
+        "english": "Tomato",
+        "image": "assets/game_images/35-tomate.png",
+        "difficulty": "1"
+      },
+      {
+        "id": "36",
+        "french": "Pizza",
+        "english": "Pizza",
+        "image": "assets/game_images/36-pizza.png",
+        "difficulty": "1"
       }
     ],
     "rewardImages": [
       "assets/reward_images/chase_badge_patpatrouile_sq.png",
       "assets/reward_images/everest_badge_patpatrouile_sq.png",
-      "assets/reward_images/marcus_badge_patpatrouile_sq.png"
+      "assets/reward_images/marcus_badge_patpatrouile_sq.png",
+      "assets/reward_images/maurice_badge_patpatrouile_sq.png",
+      "assets/reward_images/poule_gallinetta_badge_patpatrouile_sq.png",
+      "assets/reward_images/rocky_badge_patpatrouile_sq.png",
+      "assets/reward_images/ruben_badge_patpatrouile_sq.png",
+      "assets/reward_images/ryder_badge_patpatrouile_sq.png",
+      "assets/reward_images/stella_badge_patpatrouile_sq.png",
+      "assets/reward_images/zuma_badge_patpatrouile_sq.png"
     ]
   }
