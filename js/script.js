@@ -28,6 +28,7 @@ function initializeGame() {
   selectRewardImage();
   updateRestartButton();
   newRound();
+  document.getElementById('restart-button').addEventListener('click', restartGame);
 }
 
 function selectRewardImage() {
@@ -115,8 +116,10 @@ function checkAnswer(selectedOption) {
       setTimeout(() => {
         if (correctAnswers < 9) {
           document.body.style.backgroundColor = '#f0f0f0';
+          newRound();
+        } else {
+            endGame();
         }
-        newRound();
       }, 1000);
     } else {
       document.body.style.backgroundColor = 'rgba(255, 0, 0, 0.2)';
@@ -128,8 +131,16 @@ function checkAnswer(selectedOption) {
     }
   }
 
+function endGame() {
+    const gameImage = document.getElementById('game-image');
+    gameImage.style.filter = 'grayscale(0%)';
+    document.getElementById('restart-container').style.display = 'flex';
+    document.getElementById('options').innerHTML = ''; // Vide les options
+    document.getElementById('word-to-guess').textContent = 'Bravo Anatole !'; // Ou un message approprié
+  }
+
 function updateImage() {
-  const gameImage = document.getElementById('game-image');
+  //const gameImage = document.getElementById('game-image');
   const coverSquares = document.querySelectorAll('.cover-square');
   const restartButton = document.getElementById('restart-button');
   
@@ -140,8 +151,8 @@ function updateImage() {
   }
   
   if (correctAnswers === 9) {
-    gameImage.style.filter = 'grayscale(0%)';
-    document.getElementById('restart-container').style.display = 'flex';
+   gameImage.style.filter = 'grayscale(0%)';
+   document.getElementById('restart-container').style.display = 'flex';
     //restartButton.style.display = 'block';
   }
 }
@@ -203,8 +214,10 @@ function restartGame() {
     const learnedItemsDiv = document.getElementById('learned-items');
     learnedItemsDiv.innerHTML = '';
     
-    document.getElementById('restart-button').style.display = 'none';
-    
+    document.getElementById('restart-container').style.display = 'none';
+    document.body.style.backgroundColor = '#f0f0f0';
+
+    selectRewardImage();
     newRound();
 }
 
